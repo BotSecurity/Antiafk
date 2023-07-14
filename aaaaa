@@ -1,0 +1,17 @@
+local loopFunction = function()
+    local player = game.Players.LocalPlayer
+    if player.Character and player.Character:FindFirstChild("BodyEffects") then
+        local koValue = player.Character.BodyEffects:FindFirstChild("K.O")
+        if koValue and koValue.Value == true then
+            game:GetService("TeleportService"):Teleport(game.PlaceId)
+        end
+    end
+end
+
+local Start = function()
+    while wait(1) do
+        pcall(loopFunction)
+    end
+end
+
+Start()
